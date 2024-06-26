@@ -8,6 +8,8 @@ Aqui vou dar commit em todas as atividades, challenges e projetos do curso ONE.
 ## Desafios
 - Desafio 1: [Atividade 1](https://github.com/weszzy/projeto-one/blob/main/app.js)
 
-- Desafio 2: [Atividade 1](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade1.js), [Atividade 2](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade2.js), [Atividade 3](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade3.js),[Atividade 4](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade4.js) e [Atividade 5](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade5.js)
+- Desafio 2: [Atividade 1](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade1.js), [Atividade 2](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade2.js), [Atividade 3](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade3.js), [Atividade 4](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade4.js), [Atividade 5](https://github.com/weszzy/projeto-one/blob/main/desafio2/atividade5.js)
 
-- Desafio 3: 
+- Desafio 3: [Atividade 1](https://github.com/weszzy/projeto-one/blob/main/desafio3/atividade1.js), [Atividade 2](https://github.com/weszzy/projeto-one/blob/main/desafio3/atividade2.js), [Atividade 3](https://github.com/weszzy/projeto-one/blob/main/desafio3/atividade3.js),[Atividade 4](https://github.com/weszzy/projeto-one/blob/main/desafio3/atividade4.js)
+
+- Desafio 4: [Atividade 1 a 4](https://github.com/weszzy/projeto-one/blob/main/desafio4/atv1a4.html), [Atividade 5](https://github.com/weszzy/projeto-one/blob/main/desafio4/atividade5.js), [Atividade 6](https://github.com/weszzy/projeto-one/blob/main/desafio4/atividade6.js), [Atividade 7](https://github.com/weszzy/projeto-one/blob/main/desafio4/atividade7.js), [Atividade 8](https://github.com/weszzy/projeto-one/blob/main/desafio4/atividade8.js), [Atividade 9](https://github.com/weszzy/projeto-one/blob/main/desafio4/atividade9.js), [Atividade 10 a 12](https://github.com/weszzy/projeto-one/blob/main/desafio4/atividade10a12.js) e [Atividade 13](https://github.com/weszzy/projeto-one/blob/main/desafio4/atividade13.js)
