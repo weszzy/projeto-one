@@ -5,7 +5,7 @@ Aqui vou dar commit em todas as atividades, challenges e projetos do curso ONE.
 
 ## Curso: Lógica de programação com JavaScript
 
-## Desafios
+## Resolução dos desafios
 - Desafio 1: [Atividade 1](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20com%20JavaScript/desafio1/app.js)
 
 - Desafio 2: [Atividade 1](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20com%20JavaScript/desafio2/atividade1.js), [Atividade 2](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20com%20JavaScript/desafio2/atividade2.js), [Atividade 3](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20com%20JavaScript/desafio2/atividade3.js), [Atividade 4](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20com%20JavaScript/desafio2/atividade4.js), [Atividade 5](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20com%20JavaScript/desafio2/atividade5.js)
@@ -19,5 +19,5 @@ Aqui vou dar commit em todas as atividades, challenges e projetos do curso ONE.
 
 ## Curso 2: Lógica de programação - explore funções e listas
 
-## Desafios
+## Resolução dos desafios
 - Desafio 1: [Atividade 1 a 6](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20-%20explore%20fun%C3%A7%C3%B5es%20e%20listas/desafio1/atividade1a6.js)
