@@ -23,3 +23,9 @@ Aqui vou dar commit em todas as atividades, challenges e projetos do curso ONE.
 - Desafio 1: [Atividade 1 a 6](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20-%20explore%20fun%C3%A7%C3%B5es%20e%20listas/desafio1/atividade1a6.js)
 
 - Desafio 2: [Atividade 1 a 6](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20-%20explore%20fun%C3%A7%C3%B5es%20e%20listas/desafio2/atv1a6.js)
+
+- Desafio 3: [Atividade 1 a 6](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20-%20explore%20fun%C3%A7%C3%B5es%20e%20listas/desafio3/atv1a6.js)
+
+- Desafio 4: [Atividade 1 a 6](https://github.com/weszzy/projeto-one/blob/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20-%20explore%20fun%C3%A7%C3%B5es%20e%20listas/desafio4/atv1a6.js)
+
+``` "A coragem não é ausência do medo; é a persistência apesar do medo." - Desconhecido ```
