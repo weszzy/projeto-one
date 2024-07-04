@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #040D12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #183D3D;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #040D12;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 0;
+    display: block;
+}
+
+section {
+    padding: 2em;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #5C8374;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 26px 19px 11px 0px #112424;
+    text-align: left;
+}
+
+.foto-container {
+    flex: 0 0 auto;
+    margin-right: 1em;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.info {
+    flex: 1;
+}
+
+
+.focosIcons img {
+    height: 35px;
+    flex-wrap: wrap;
+    padding: 1px;
+    flex-direction: row;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0.5em;
+}
+
+.socialIcons a {
+    display: inline-block;
+}
+
+.socialIcons img {
+    height: 35px;
+    padding: 1em;
+}
+
+.projetos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    flex-wrap: nowrap;
+}
+
+.projeto {
+    background-color: #5C8374;
+    padding: 1em;
+    border-radius: 10px;
+    width: calc(50% - 1em);
+    box-shadow: 26px 19px 11px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projeto .preview {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+footer {
+    padding: 0.5em;
+    background-color: #040D13;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.ffont {
+    color: #2b3d36;
+    text-align: right;
+    font-size: 15px;
+}
+
