@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 :root {
     --cor-primaria: #040D12;
     --cor-secundaria: #183D3D;
     --cor-terciaria: #5C8374;
+}
+
+html {
+    font-size: 16px; /* 1rem = 16px */
 }
 
 body {
@@ -22,49 +22,53 @@ body {
 
 .container {
     background-color: var(--cor-secundaria);
-    padding: 1em;
-    border-radius: 10px;
-    box-shadow: 0 0 10px var(--cor-primaria);
-    max-width: 800px;
+    padding: 1rem;
+    border-radius: 0.625rem; /* 10px / 16 */
+    box-shadow: 0 0 0.625rem var(--cor-primaria); /* 10px / 16 */
+    max-width: 50rem; /* 800px / 16 */
     width: 100%;
     text-align: center;
-    margin-top: 2em;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #444;
-    margin: 0;
-}
-
-nav ul li {
-    margin: 0 1em;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5em 0;
-    display: block;
-}
-
-section {
-    padding: 2em;
+    margin-top: 2rem;
 }
 
 .card {
     display: flex;
     align-items: center;
     background-color: var(--cor-terciaria);
-    padding: 2em;
-    border-radius: 10px;
-    box-shadow: 26px 19px 11px 0px #112424;
+    padding: 2rem;
+    border-radius: 0.625rem; /* 10px / 16 */
+    box-shadow: 1.625rem 1.1875rem 0.6875rem 0 #112424; /* 26px 19px 11px / 16 */
     text-align: left;
 }
 
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto-container {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .container {
+        padding: 0.5rem;
+    }
+
+    .socialIcons {
+        flex-direction: row;
+    }
+
+    .socialIcons img {
+        height: 2.5rem;
+    }
+}
 
 #descricao {
     font-family: "Rubik", sans-serif;
@@ -75,39 +79,31 @@ section {
 
 .foto-container {
     flex: 0 0 auto;
-    margin-right: 1em;
+    margin-right: 1rem;
 }
 
 .foto {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 9.375rem; /* 150px / 16 */
+    height: 9.375rem; /* 150px / 16 */
     object-fit: cover;
-
 }
 
 .info {
     flex: 1;
 }
 
-
 .focosIcons img {
-    height: 35px;
+    height: 2.1875rem; /* 35px / 16 */
     flex-wrap: wrap;
-    padding: 1px;
+    padding: 0.0625rem; /* 1px / 16 */
     flex-direction: row;
 }
 
 .socialIcons {
     display: flex;
     justify-content: space-evenly;
-    margin: 0.5em;
-}
-
-.socialIcons {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0.5em;
+    margin: 0.5rem;
 }
 
 .socialIcons a {
@@ -115,8 +111,8 @@ section {
 }
 
 .socialIcons img {
-    height: 35px;
-    padding: 1em;
+    height: 2.1875rem; /* 35px / 16 */
+    padding: 1rem;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -128,17 +124,17 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 1em;
+    gap: 1rem;
     flex-wrap: nowrap;
 }
 
 .projeto {
     background-color: var(--cor-terciaria);
-    padding: 1em;
-    border-radius: 10px;
-    width: calc(50% - 1em);
-    box-shadow: 26px 19px 11px 0px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1em;
+    padding: 1rem;
+    border-radius: 0.625rem; /* 10px / 16 */
+    width: calc(50% - 1rem);
+    box-shadow: 1.625rem 1.1875rem 0.6875rem 0 rgba(0, 0, 0, 0.1); /* 26px 19px 11px / 16 */
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,22 +143,24 @@ section {
 
 .projeto .preview {
     width: 100%;
-    height: 200px;
+    height: 12.5rem; /* 200px / 16 */
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.625rem 0.625rem 0 0; /* 10px / 16 */
 }
 
 footer {
-    padding: 0.5em;
+    padding: 0.5rem;
     background-color: var(--cor-primaria);
     width: 100%;
     position: relative;
     bottom: 0;
     margin-top: auto;
+    margin-left: -1rem; 
 }
 
 .ffont {
     color: #2b3d36;
     text-align: right;
-    font-size: 15px;
+    font-size: 0.9375rem; /* 15px / 16 */
 }
+
