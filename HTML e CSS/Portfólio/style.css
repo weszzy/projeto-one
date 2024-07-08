@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
+:root {
+    --cor-primaria: #040D12;
+    --cor-secundaria: #183D3D;
+    --cor-terciaria: #5C8374;
+}
+
 body {
     font-family: "Rubik", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #040D12;
+    background-color: var(--cor-primaria);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,10 +20,10 @@ body {
 }
 
 .container {
-    background-color: #183D3D;
+    background-color: var(--cor-secundaria);
     padding: 1em;
     border-radius: 10px;
-    box-shadow: 0 0 10px #040D12;
+    box-shadow: 0 0 10px var(--cor-primaria);
     max-width: 800px;
     width: 100%;
     text-align: center;
@@ -51,7 +57,7 @@ section {
 .card {
     display: flex;
     align-items: center;
-    background-color: #5C8374;
+    background-color: var(--cor-terciaria);
     padding: 2em;
     border-radius: 10px;
     box-shadow: 26px 19px 11px 0px #112424;
@@ -106,7 +112,7 @@ section {
 }
 
 .projeto {
-    background-color: #5C8374;
+    background-color: var(--cor-terciaria);
     padding: 1em;
     border-radius: 10px;
     width: calc(50% - 1em);
@@ -127,7 +133,7 @@ section {
 
 footer {
     padding: 0.5em;
-    background-color: #040D13;
+    background-color: var(--cor-primaria);
     width: 100%;
     position: relative;
     bottom: 0;
