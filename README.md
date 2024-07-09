@@ -38,4 +38,4 @@ Aqui vou dar commit em todas as atividades, challenges e projetos do curso ONE.
 - [Vercel](https://projeto-ptfl.vercel.app/)
 - Preview:
 
-<img src="https://i.imgur.com/aIP7hFn.png">
+<img src="https://i.imgur.com/gHtLY2H.png">
